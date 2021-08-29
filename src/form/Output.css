@@ -1,0 +1,23 @@
+.outputDiv{
+    height: 50vh;
+    width: 80vw;
+    background-color: lightcoral;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: top;
+    padding-top: 5%;
+    justify-content: space-around;
+    box-shadow: 3px 5px 3px silver;
+    border-radius: 10px;
+    margin: 40px 0;
+
+}
+
+.outputDiv div{
+    font-size: xx-large;
+    border: 1px solid black;
+    height: 60px ;
+    margin: 0 30px; 
+    padding: 5px 10px;
+    background-color: blanchedalmond;
+}

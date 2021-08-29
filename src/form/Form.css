@@ -1,0 +1,53 @@
+.form-control {
+  height: 50vh;
+  width: 80vw;
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: top;
+  padding-top: 5%;
+  justify-content: space-around;
+  box-shadow: 5px 7px 5px silver;
+  border-radius: 10px;
+}
+
+#name, #email, #phone, #age, #country, #password{
+    width: 30rem;
+    padding: 15px 0;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+#hobby1 , #hobby2 ,#hobby3,#hobby4, #male, #female{
+    cursor: pointer;    
+    font-size: large;
+    display: inline-block;
+    width: 16px;
+    height: 20px;
+}
+
+label{
+    font-size: x-large;
+}
+
+#sButton{
+    width: 30rem;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.767);
+    padding: 15px 0;
+    color: white;
+    font-weight: 700;
+    font-size: x-large;
+    font-family: monospace;
+    transition: all 0.3s ease-in-out
+}
+
+#sButton:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+
+}
